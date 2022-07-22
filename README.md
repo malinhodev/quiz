@@ -1,2 +1,9 @@
-# quizz
-Projeto de um site web com um quizz de perguntas com alguns temas.
+# Quiz
+Projeto de um web site com um quizz de perguntas de um determinado tema.
+
+## Tecnologias usadas:
+
+ * vsCode
+ * HTML5
+ * CSS3
+ * Javascript
