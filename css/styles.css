@@ -28,41 +28,6 @@ section .container{
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
 }
-/*inicio*/
-.inicio{
-  
-  margin-top: 70px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-
-.inicio a{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  text-align: center;
-  color: #524d73;
-  margin: 15px auto;
-  width: 300px;
-  height: 50px;
-  border-radius: 25px;
-  background-color: #CDDDE8;
-  cursor: pointer;
-  transition: .5s;
-}
-
-.inicio a:focus{
-  border: none;
-}
-
-.inicio a:hover{
-  background-color: #E78230;
-  color: #FFF;
-}
-
 
 /* SCORE CONTAINER */
 

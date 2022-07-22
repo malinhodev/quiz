@@ -282,8 +282,8 @@ restartBtn.addEventListener("click", function() {
   // zerar o jogo
   actualQuestion = 0;
   points = 0;
-  //hideOrShowQuizz();
-  //init();
+  hideOrShowQuizz();
+  init();
 
 });
 
