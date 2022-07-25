@@ -22,7 +22,7 @@ section .container{
 }
 
 #main-title {
-  padding: 40px 0;
+  padding: 30px 0;
   text-align: center;
   background-color: #524d73;
   border-bottom-left-radius: 50px;
@@ -87,7 +87,7 @@ section .container{
 
 #quizz-container {
   width: 500px;
-  margin: 50px auto;
+  margin: 20px auto;
   border: 1px solid #CDDDE8;
   padding: 25px;
   border-radius: 25px;
@@ -159,10 +159,10 @@ section .container{
 }
 
 footer{
+  z-index: 1;
   bottom: 0;
   position: fixed;
   width: 100%;
-  padding: 20px 0;
   text-align: center;
   background-color: #524d73;
   border-top-left-radius: 50px;
@@ -187,11 +187,22 @@ footer img{
   }
 
   #score-container {
-    width: 90%;
+    width: 80%;
   }
 
+  footer{
+    padding: 20px;
+  }
   footer img{
     max-width: 150px;
   }
 
+}
+
+@media(max-width:300px){
+  #restart{
+    width: 90px;
+    padding: 6px 10px;
+    text-align: center;
+  }
 }
